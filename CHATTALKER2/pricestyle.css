@@ -1,0 +1,467 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.TOPCLICK {
+    width: 71px;
+    height: 71px;
+    line-height: 71px;
+    font-weight: bold;
+    background: #56C4C5;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 10;
+    right: 50px;
+    bottom: 0;
+
+}
+
+
+.TOPCLICK a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.TOPCLICK a:hover {
+    font-size: 24px;
+    color: rgb(11, 85, 81);
+}
+
+
+
+.ball1{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 94px;
+    height: 361px;
+    position: absolute;
+    top: 589px;
+ 	left: 0;
+     z-index: -20;
+}
+
+
+.gray{
+    width: 100%;
+    height: 470px;
+    background: #F7F9FD;
+    border-radius: 0px 0px 0px 300px;
+    position: absolute;
+    z-index: -10;
+}
+
+.bannermic{
+    background-image:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg);
+    width:885px;
+    height: 559px;
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+ 	top: 0px;
+    z-index: -1;
+}
+
+@media(max-width:375px)  {
+	.bannermic{
+		background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg);
+		width: 375px;
+		height: 495px;
+		top: 72px;
+	
+	}
+ }
+
+
+
+
+.wrap {
+    max-width: 1366px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 88px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+@media(max-width:375px)  {
+	.header{
+		background-color: white;
+		border-bottom: 2px solid yellow;
+	}
+}
+
+
+.logo{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/chatTalker_images/logo.png?raw=true);
+    width:218.06px; 
+    height:40px;
+    background-size: cover;
+}
+
+.price {
+    width: 128px;
+    height: 40px;
+    background: #FF5D50;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.price a{
+    color:#FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+
+.price a:hover{
+   background:#FFFFFF;
+   color: #FF5D50;
+    text-decoration: none;
+    display: block;
+    border-radius: 27px;
+}
+
+
+
+
+.slogan{
+    width: 100%;
+    margin-top: 200px;
+    max-width: 320px;
+    padding-bottom: 200px;
+    background-position:left;     
+}
+
+.slogan h1{
+    font-size: 48px;
+    font-family: Noto Sans TC, Bold;
+    padding-bottom: 40px;
+}
+
+.slogan p{
+    display: block;
+}
+
+
+
+
+
+.choice{
+    width: 100%;
+    display: column;
+    padding-bottom: 50px;  
+}
+
+.choice h2{
+    font-size: 32px;
+    font-family: Noto Sans TC, Bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.bignumber{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;   
+}
+
+.number {
+    width: 130px;
+    height: 50px;
+    border:1px#56C4C5 solid;
+    color:#56C4C5;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 27px;
+}
+
+.number a{
+    color:#56C4C5;
+    text-decoration: none;
+    display: block;
+}
+
+.number a:hover{
+   background:#56C4C5;
+   color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    border-radius: 27px;
+}
+
+
+
+
+
+
+.basicandregular{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+
+.basicandregular h3{
+    font-size:24px ;
+    font-family: Noto Sans TC, Bold;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.basicandregular h4{
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.basicandregular P{
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.click{
+    background: #56C4C5;
+    color: white;
+    border-radius: 27px;
+    border: 1px solid #56C4C5;
+    font-size: 18px;
+    line-height: 36px;
+    max-width: 136px;
+    text-align: center;
+    margin: auto;
+} 
+
+.click a{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+
+.click a:hover{
+   background:white;
+   color: #56C4C5;
+    text-decoration: none;
+    display: block;
+    border-radius: 27px;
+}
+
+.basic{
+    padding: 20px;
+    margin: 10Px;
+    max-width: 444px;
+    height: 576;
+    background: #FFFFFF;
+  box-shadow: 0px 2px 10px #00000014;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+}
+
+.regular{
+    padding: 20px;
+    margin: 10Px;
+    max-width: 444px;
+    height: 576;
+    background: #FFFFFF ;
+box-shadow: 0px 2px 10px #00000014;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+
+.people{
+    max-width: 169px;
+    height: 108px;
+    margin: 10px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+border-radius: 12px;
+text-align: center;
+padding: 5px;
+}
+
+.result h5{
+    font-size: 12px; 
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+
+.result p{
+    font-size: 28px;
+    color: #56C4C5;
+    font-family: Comfortaa;
+    line-height: 32px;
+} 
+
+.money{
+    max-width: 169px;
+    height: 108px;
+    margin: 10px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+border-radius: 12px;
+text-align: center;
+padding: 5px;
+}
+
+.outsider{
+    max-width: 904px;
+    margin: 0 auto;
+}
+
+
+
+
+.question{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.questionlist{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.qt{  
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 10px #00000014;
+border-radius: 12px;
+margin: 20px;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.qt h3{
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px;
+}
+
+.qt p{
+    color: #747474;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.words{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qt3{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.qt3 h3{
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px;
+}
+
+.qt3 p{
+    width: 100%;
+    color: #747474;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+
+    background: #F5F5F5;
+    color: black;
+    text-align: center;
+    height: 56px;
+}
+
+.footer h5 {
+    font-size: 16px;
+    font-family: Noto Sans TC, Regular;
+    line-height: 56px;
+}
